@@ -23,7 +23,7 @@ $ npm install
 $ npm run dev
 ```
 
-### As I a not following the course exacttly had to update dependencies in package.json
+### As I am not following the course exactly had to update dependencies in package.json
 FROM:
 ```
   "dependencies": {
