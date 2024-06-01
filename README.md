@@ -2,6 +2,7 @@
 * Course: Full Stack Web Development Bootcamp with React and Python
 * Author: Bogdan Stashchuk
 * Provider: O'Reilly Learning
+* [Course Link](https://learning.oreilly.com/api/v1/continue/9781801811040/)
 
 ### Check required installations
 ```
