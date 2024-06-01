@@ -1,8 +1,8 @@
-function App() {
+const App = () =>{
    return (
-       <div className='App'>
+      <div>
         <h1>Images Galary</h1>
-        </div>
+      </div>
   )
 }
 
