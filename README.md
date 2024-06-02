@@ -40,4 +40,10 @@ INCLUDE:
     "react-scripts": "^5.0.0"
   },
 ```
+### In Lesson 6.2 "Creating Header Component" I've intalled
+```
+$ npm install react-bootstrap@1.4.0 bootstrap@4.5.3
+$ npm audit fix --force
+```
 
+### In Lesson 6.3 "What are React Props" worth further investigation
