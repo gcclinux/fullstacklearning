@@ -72,3 +72,5 @@ App.js = console.log(import.meta.env);
 
 ![define url](notes/define-url.png)
 
+### Chapter 7 : Making First API Request for Random Photo
+### Chapter 7 : Analyzing API Requests and Responses
