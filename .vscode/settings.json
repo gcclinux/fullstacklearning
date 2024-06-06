@@ -27,5 +27,9 @@
         "tab.activeBorder": "#689a46",
         "titleBar.border": "#507736"
     },
-    "peacock.color": "#507736"
+    "peacock.color": "#507736",
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "javascriptreact"]
 }
