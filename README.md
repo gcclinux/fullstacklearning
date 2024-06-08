@@ -105,3 +105,6 @@ Add following lines after installing ESLint extention this will automatically sh
         "javascriptreact"]
 ```
 ### Chapter 8 : Installing and Enabling Prettier ESLint Plugin
+```
+$ npm install -D prettier eslint-config-prettier eslint-plugin-prettier
+```
