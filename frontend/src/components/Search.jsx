@@ -1,6 +1,6 @@
-import { Col, Row, Container, Form, Button } from "react-bootstrap";
-import PropTypes from "prop-types";
 
+import { Col, Row, Container, Form, Button } from "react-bootstrap";
+// eslint-disable-next-line
 const Search = ({ word, setWord, handleSubmit }) => {
     return (
         <Container className="mt-4">
@@ -25,12 +25,6 @@ const Search = ({ word, setWord, handleSubmit }) => {
             </Row>
         </Container>
     );
-};
-
-Search.propTypes = {
-    word: PropTypes.string.isRequired,
-    setWord: PropTypes.func.isRequired,
-    handleSubmit: PropTypes.func.isRequired,
 };
 
 export default Search;

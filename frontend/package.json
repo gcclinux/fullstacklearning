@@ -28,15 +28,5 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "prettier": "^3.3.1",
     "vite": "^5.2.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "plugin:prettier/recommended"
-    ]
-  },
-  "prettier":{
-    "singleQuote": true
-}
+  }
 }

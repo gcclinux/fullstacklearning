@@ -1,7 +1,8 @@
-import PropTypes from 'prop-types';
+
 import { Navbar, Container } from 'react-bootstrap';
 
 const Header = (props) => {
+  // eslint-disable-next-line
   const { title } = props;
   const navbarStyle = {
     backgroundColor: 'lightblue'
@@ -13,10 +14,6 @@ const Header = (props) => {
           </Container>
       </Navbar>
     )
-};
-
-Header.propTypes = {
-  title: PropTypes.string.isRequired
 };
 
 export default Header;
