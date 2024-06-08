@@ -29,6 +29,6 @@ const App = () => {
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />
     </div>
   );
-};
+}
 
 export default App;

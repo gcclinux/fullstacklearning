@@ -1,4 +1,4 @@
-import React from 'react';
+import PropTypes from 'prop-types';
 import { Navbar, Container } from 'react-bootstrap';
 
 const Header = (props) => {
@@ -13,6 +13,10 @@ const Header = (props) => {
           </Container>
       </Navbar>
     )
+};
+
+Header.propTypes = {
+  title: PropTypes.string.isRequired
 };
 
 export default Header;
