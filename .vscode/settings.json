@@ -16,16 +16,7 @@
         "titleBar.activeBackground": "#507736",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#50773699",
-        "titleBar.inactiveForeground": "#e7e7e799",
-        "editorGroup.border": "#689a46",
-        "panel.border": "#689a46",
-        "sideBar.border": "#689a46",
-        "statusBar.border": "#507736",
-        "statusBar.debuggingBackground": "#5d3677",
-        "statusBar.debuggingBorder": "#5d3677",
-        "statusBar.debuggingForeground": "#e7e7e7",
-        "tab.activeBorder": "#689a46",
-        "titleBar.border": "#507736"
+        "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#507736",
     "eslint.validate": [
