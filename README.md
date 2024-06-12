@@ -27,6 +27,12 @@ $ npm install
 $ npm run dev
 ```
 
+### VSCode extentions used:
+ - Material Icon Theme
+ - ESLint
+ - Markdown Preview Enhanced
+ - Peacock
+
 ### As I am not following the course exactly had to update dependencies in package.json
 
 FROM:
