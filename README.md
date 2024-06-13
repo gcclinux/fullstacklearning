@@ -33,6 +33,12 @@ $ npm run dev
  - Markdown Preview Enhanced
  - Peacock
 
+###  VSCode formatting through the following shortcuts:
+
+- On Windows Shift + Alt + F
+- On Mac Shift + Option + F
+- On Linux Ctrl + Shift + I
+
 ### As I am not following the course exactly had to update dependencies in package.json
 
 FROM:
