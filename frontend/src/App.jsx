@@ -2,6 +2,7 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header.jsx";
 import Search from "./components/Search.jsx";
+import ImageCard from "./components/ImageCard.jsx";
 
 const UNSPLASH_KEY = import.meta.env.VITE_APP_UNSPLASH_KEY;
 
@@ -31,6 +32,7 @@ const App = () => {
     <div>
       <Header title="Images Galary" />
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />
+      <ImageCard images={images} />
     </div>
   );
 };
