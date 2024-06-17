@@ -32,7 +32,11 @@ const App = () => {
     <div>
       <Header title="Images Galary" />
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />
-      {!!images.length && <ImageCard images={images[0]} />}
+      {/* {!!images.length && <ImageCard images={images[0]} />} */}
+      {/* single images display rather than using a map array */}
+      {images.map((images, i) => (
+        <ImageCard key={i} images={images} />
+      ))};
     </div>
   );
 };
