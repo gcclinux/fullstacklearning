@@ -1,18 +1,18 @@
+/* eslint-disable react/prop-types */
 // import Button from 'react-bootstrap/Button';
 // import Card from 'react-bootstrap/Card';
 import { Card, Button } from 'react-bootstrap';
 
-const ImageCard = () => {
+const ImageCard = ({ images }) => {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images.unsplash.com/photo-1578656415093-e7e19e5e132b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MTg5ODV8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyOTE0MDJ8&ixlib=rb-4.0.3&q=80&w=400" />
+      <Card.Img variant="top" src={images.urls.small} />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{images.title}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card&apos;s content.
+          {images.description || images.alt_description}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Delete</Button>
       </Card.Body>
     </Card>
   );
