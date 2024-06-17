@@ -32,6 +32,7 @@ $ npm run dev
  - ESLint
  - Markdown Preview Enhanced
  - Peacock
+ - Prettier - Code formatter
 
 ###  VSCode formatting through the following shortcuts:
 
