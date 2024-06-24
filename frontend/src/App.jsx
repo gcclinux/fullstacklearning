@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header.jsx";
 import Search from "./components/Search.jsx";
 import ImageCard from "./components/ImageCard.jsx";
+import { Container, Row, Col } from "react-bootstrap";
 
 const UNSPLASH_KEY = import.meta.env.VITE_APP_UNSPLASH_KEY;
 
@@ -34,9 +35,15 @@ const App = () => {
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />
       {/* {!!images.length && <ImageCard images={images[0]} />} */}
       {/* single images display rather than using a map array */}
-      {images.map((images, i) => (
-        <ImageCard key={i} images={images} />
-      ))};
+      <Container className="mt-4">
+        <Row xs={1} md={2} lg={3}>
+          {images.map((images, i) => (
+            <Col key={i} className="pb-3" >
+              <ImageCard images={images} />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </div>
   );
 };
