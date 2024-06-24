@@ -15,7 +15,6 @@ const App = () => {
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
-    console.log(word);
     fetch(
       `https://api.unsplash.com/photos/random?query=${word}&client_id=${UNSPLASH_KEY}`
     )
@@ -29,6 +28,10 @@ const App = () => {
     setWord("");
   };
 
+  const handleDeleteImage = (id) => {
+    setImages(images.filter((images) => images.id !== id));
+  };
+
   return (
     <div>
       <Header title="Images Galary" />
@@ -39,7 +42,7 @@ const App = () => {
         <Row xs={1} md={2} lg={3}>
           {images.map((images, i) => (
             <Col key={i} className="pb-3" >
-              <ImageCard images={images} />
+              <ImageCard images={images} deleteImage={handleDeleteImage}/>
             </Col>
           ))}
         </Row>
