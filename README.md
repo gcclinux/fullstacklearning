@@ -33,6 +33,7 @@ $ npm run dev
  - Markdown Preview Enhanced
  - Peacock
  - Prettier - Code formatter
+ - SVG Editor
 
 ###  VSCode formatting through the following shortcuts:
 
