@@ -122,3 +122,6 @@ Add following lines after installing ESLint extention this will automatically sh
 ```
 $ npm install -D prettier eslint-config-prettier eslint-plugin-prettier
 ```
+
+### Frontend Summary
+![FrontEnd](notes/frontend-summary.png)
