@@ -37,6 +37,7 @@ user ucommunication in real time might be stored and retrieved from a Redis Data
 
 be easily retrieved by clients via API on the servers. Alright, let's next continue this discussion and talk in greater details about communication between clients and servers. I'll see you guys next.
 
+-----------------------------------------------------------------
 ### API CLient & Server Comms
 ![API Simplified](notes/api-client-server-comms.png)
 
@@ -70,6 +71,7 @@ perform all those actions on the servers. REST API is architectural style. And w
 
 language, and with help of queries client could perform all sorts of managing actions. All right, next after a small pause let's talk in details about
 
+-----------------------------------------------------------------
 ### REST API
 ![REST API](notes/rest-api.png)
 
@@ -85,3 +87,34 @@ style is that each resource should have a specific URL. URL stands for Uniform R
 included in such URLs in order to make them unique. Also, there might be another resource that is actually list of multiple user profiles. In such case, such a list will have its own specific URL. That's one of the main rules in
 
 REST API. And again, to summarize, REST API is just architectural style. It's set of rules, a set of guidelines that you should follow when you want to create your RESTful API. All right, let's next have a look at the example of the URL. See you guys after the pause.
+
+-----------------------------------------------------------------
+### Request and Response API
+![Requesr & response](notes/request-response.png)
+
+[Intro Music] You already know that the clients and servers talk with each other in form of requests and responses. And also in the previous lecture, we discussed what is URL. And I've given you several examples of the URLs for various resources. Now
+
+let's talk in details about format of the request and response. And first, let's talk about request. Request is sent from the client to the server. And it consists of following parts - URL, it is mandatory part, and it is identifier of the specific resource. Next,
+
+there is another mandatory part, that is method. And there are such methods as GET, POST, DELETE, and others. And please notice that every single request might contain only single method, either GET or POST or others, but one and only one method must be present here in
+
+the request. Next, there are Headers. This section is also mandatory. And in Headers, there might be different parameters like Cookie User-Agent, Authorization field, and so on. And there is one more optional part of the request
+
+that is called Data or Body. And the format of Data or Body could be for example, JSON, it is actually most popular format or Form Data or others. And the Data is present only in case you use some of the HTTP methods, like for example POST. All
+
+right. To summarize, request consists of URL, Method, Headers and optional Data or Body. Now let's talk about response from the server. Response is sent from the server to the client after processing of the request the
+
+server received from the client. And response consists of following parts - Status Line - It consists of Protocol version, for example, HTTP 1.1, or HTTP 2, then status code and status text. There are different status codes and
+
+corresponding status texts that could be sent by the server to the client. And most popular is 200, the status code; and status text OK. This means that the request was processed correctly. And the response from the server contains some Data, for example, image or
+
+HTML page. Next, there are Headers, and the Headers might contain multiple values like a Content- Type, Date, Server, Set-Cookie, and many many others. Also, there was optional Data or Body, and it is actual response from the server
+
+that is sent to the client; and format of the Data or Body could be either JSON or Document or Stylesheet or PNG image, or others. Most popular format of the text data that is sent by the server to client is JSON, JavaScript Object Notation. To summarize, response
+
+from the server consists of Status Line, Headers, and Data or Body. Now after the small pause, let's quickly analyze several requests and responses. And let's do that in our frontend application that we will build in the third section of this course. I will see you guys
+
+after the small pause.
+
+-----------------------------------------------------------------
+
