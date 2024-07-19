@@ -3,7 +3,7 @@
 ### API Simplified
 ![API Simplified](notes/api-simplified.png)
 
-[Intro Music] So far, we built our frontend application, and it talks directly to Unsplash API, and before starting development of our own API service using Python Flask, let me take some time and explain you API
+So far, we built our frontend application, and it talks directly to Unsplash API, and before starting development of our own API service using Python Flask, let me take some time and explain you API
 
 concepts in greater details. Before, I didn't want to spend much time on that, because I wanted to create the first version of application as fast as possible. But now it's a very good time to make a paise in our development process, and talk about such concepts as REST API, request- response, REST API methods,
 
@@ -41,7 +41,7 @@ be easily retrieved by clients via API on the servers. Alright, let's next conti
 ### API CLient & Server Comms
 ![API Simplified](notes/api-client-server-comms.png)
 
-[Intro Music] We've just discussed purpose of the API. And now you know that API actually simplifies data transmission between different endpoints, like between clients and databases. And now let's talk about communication between clients and servers. Clients and servers
+We've just discussed purpose of the API. And now you know that API actually simplifies data transmission between different endpoints, like between clients and databases. And now let's talk about communication between clients and servers. Clients and servers
 
 communicate with help of requests and responses. Client sends a request for a specific resource to the server, and server responds back with a response. For example, client could request particular image from the server, or client
 
@@ -76,7 +76,7 @@ language, and with help of queries client could perform all sorts of managing ac
 ![REST API](notes/rest-api.png)
 
 
-[Intro Music] REST API is most popular method of communication between clients and servers. And actually both REST API and the GraphQL in most cases work over HTTPS. REST is not a protocol. It is an architectural style. And
+REST API is most popular method of communication between clients and servers. And actually both REST API and the GraphQL in most cases work over HTTPS. REST is not a protocol. It is an architectural style. And
 
 this style defines actually a set of rules that developers should follow while creating API. REST stands for Representational State Transfer. And API stands for Application Programming Interface. And basically, with help of REST API,
 
@@ -92,7 +92,7 @@ REST API. And again, to summarize, REST API is just architectural style. It's se
 ### Request and Response API
 ![Requesr & response](notes/request-response.png)
 
-[Intro Music] You already know that the clients and servers talk with each other in form of requests and responses. And also in the previous lecture, we discussed what is URL. And I've given you several examples of the URLs for various resources. Now
+You already know that the clients and servers talk with each other in form of requests and responses. And also in the previous lecture, we discussed what is URL. And I've given you several examples of the URLs for various resources. Now
 
 let's talk in details about format of the request and response. And first, let's talk about request. Request is sent from the client to the server. And it consists of following parts - URL, it is mandatory part, and it is identifier of the specific resource. Next,
 
